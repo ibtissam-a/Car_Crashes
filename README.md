@@ -1,6 +1,12 @@
-# Car_Crashes
+# Data Analysis and Missing Value Handling Techniques
 
-In this notebook we will talk about "missing values problem". In fact dealing with missing values in a data set is an important step in data processing phase. We selected this data set coz it contains many missing values
+This repository contains a notebook where I discuss various techniques for dealing with missing values, which are essential in the data cleaning step of any data-driven project. Additionally, I conducted data analysis to gain insights into the datasets used in the project.
+
+# Motivation
+
+The motivation behind this notebook is to provide a comprehensive overview of techniques for handling missing values, which are fundamental to the data cleaning process. By discussing these techniques and performing data analysis, I aim to equip practitioners with the necessary tools to preprocess their data effectively.
+
+# Contents
 
 * We Strated with inprting needed libs.
 * Then we loaded data and we made some data exploration.
@@ -33,6 +39,12 @@ It involves filling in missing values with some estimated values. Common methods
    * Interpolation imputation: Estimate missing values based on the values of neighboring data points.
      
 !!! BTW still there are many other imputation methods.
+
+# Usage
+The notebook serves as a guide for practitioners looking to preprocess their data effectively. Each technique is accompanied by code examples and explanations to aid understanding and implementation.
+
+#Contributions and Feedback
+Feedback, suggestions, and contributions are welcome! If you have any ideas for improvement or additional techniques to include, feel free to open an issue or submit a pull request.
 
 # Imputation depends on the type of the data!!!
 For nominal or categorical data the interpolation doesn't make sense coz there is no meaningful order or relationship between the categories.
